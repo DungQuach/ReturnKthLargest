@@ -1,3 +1,7 @@
-﻿  FindKthLargest.cpp
-  Project2.vcxproj -> C:\Users\t_quacd\Desktop\Git\FindKthLargest\Project2\x64\Debug\Project2.exe
-  Project2.vcxproj -> C:\Users\t_quacd\Desktop\Git\FindKthLargest\Project2\x64\Debug\Project2.pdb (Partial PDB)
+﻿  HeapTree.cpp
+c:\users\t_quacd\desktop\git\returnkthlargest\project2\project2\heaptree.cpp(14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\t_quacd\desktop\git\returnkthlargest\project2\project2\heaptree.cpp(27): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\t_quacd\desktop\git\returnkthlargest\project2\project2\heaptree.cpp(35): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\t_quacd\desktop\git\returnkthlargest\project2\project2\heaptree.cpp(42): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Project2.vcxproj -> C:\Users\t_quacd\Desktop\Git\ReturnKthLargest\Project2\x64\Debug\Project2.exe
+  Project2.vcxproj -> C:\Users\t_quacd\Desktop\Git\ReturnKthLargest\Project2\x64\Debug\Project2.pdb (Partial PDB)

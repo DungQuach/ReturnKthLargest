@@ -21,6 +21,8 @@ void main()
 		std::cout << std::endl;
 	}
 	solve.heapify();
+	//solve.insert(400);
+	//solve.insert(500);
 	while (keepTrack.size() != k)
 	{
 		keepTrack.push_back(solve.extractRoot());

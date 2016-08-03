@@ -9,9 +9,16 @@ void swap(int&a, int&b)
 }
 
 
-void HeapTree::insert(int sample)
+void HeapTree::insert(int key)
 {
-
+	int length = heapTree.size();
+	heapTree.resize(length + 1);
+	heapTree[length] = key;
+	while (length >= 0 && heapTree[length] > heapTree[(length-1) / 2])
+	{
+		swap(heapTree[length], heapTree[(length - 1) / 2]);
+		length = (length - 1 ) / 2;
+	}
 }
 
 int HeapTree::extractRoot()
